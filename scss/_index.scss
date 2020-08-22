@@ -1,0 +1,27 @@
+
+
+.banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 870px;
+    .row{
+        height: 870px;
+        align-items: center;
+        button{
+            border: 2px solid white;
+            border-radius: 30px;
+            padding: 5px 90px 5px 90px;
+            font-size: 22px;
+        }
+    }
+}
+
+.colstyleNone{
+    padding:0;
+}
+
+.recycleImg{
+    width: 98%;
+}
+

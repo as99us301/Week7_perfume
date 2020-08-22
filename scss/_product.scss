@@ -1,0 +1,13 @@
+a{
+    &:hover{
+    text-decoration: none;
+    }
+    .card-title, .card-text{
+        color: $black;
+    }
+}
+
+.page-link:hover{
+    background: $primary;
+    color: white;
+}
