@@ -95,7 +95,8 @@
         "../scss/_index.scss",
         "../scss/_layout.scss",
         "../scss/_product.scss",
-        "../scss/_product_info.scss"
+        "../scss/_product_info.scss",
+        "../scss/_login.scss"
     ],
     "names": [],
     "file": "all.css"
