@@ -10994,6 +10994,18 @@ a.text-black:hover, a.text-black:focus {
   width: 98%;
 }
 
+.logo {
+  background-image: url(/img/Logo.png);
+  background-repeat: no-repeat;
+}
+
+.logo a {
+  text-indent: 110%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+
 .text-info {
   color: #8D8D8D !important;
 }
