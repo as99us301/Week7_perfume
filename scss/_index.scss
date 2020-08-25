@@ -4,24 +4,43 @@
     background-image: url(../img/banner.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 870px;
     .row{
         height: 870px;
         align-items: center;
-        button{
-            border: 2px solid white;
-            border-radius: 30px;
-            padding: 5px 90px 5px 90px;
+        .bannerButton{
+            @include raduisButton;
             font-size: 22px;
+            padding: 5px 90px 5px 90px;
         }
     }
 }
 
-.colstyleNone{
-    padding:0;
+.productButton{
+    @include raduisButton;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 30px 5px 30px;
 }
 
-.recycleImg{
-    width: 98%;
-}
+.footerBanner{
+    background-image: url(../img/footerBanner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    .row{
+        height: 500px;
+    }
 
+    .emailSub{
+        input{
+            border: 2px solid $primary;
+            padding: 29px 20px 30px 20px;
+        }
+        button{
+            padding: 18px 26px 18px 26px;
+        }
+    }
+}

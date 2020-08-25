@@ -22,28 +22,3 @@
     }
 }
 
-.footerBanner{
-    background-image: url(../img/footerBanner.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    .row{
-        height: 500px;
-    }
-
-    .form-inline{
-        input{
-            border: 2px solid $primary;
-            padding: 29px 20px 30px 20px;
-        }
-        button{
-            padding: 18px 26px 18px 26px;
-        }
-    }
-}
-
-.navList{
-    a{
-        margin-right: 15px;
-    }
-}

@@ -11133,6 +11133,7 @@ a.text-gray:hover, a.text-gray:focus {
   background-image: url(../img/banner.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   height: 870px;
 }
 
@@ -11143,19 +11144,40 @@ a.text-gray:hover, a.text-gray:focus {
           align-items: center;
 }
 
-.banner .row button {
-  border: 2px solid white;
+.banner .row .bannerButton {
+  border: 2px solid;
   border-radius: 30px;
-  padding: 5px 90px 5px 90px;
   font-size: 22px;
+  padding: 5px 90px 5px 90px;
 }
 
-.colstyleNone {
-  padding: 0;
+.productButton {
+  border: 2px solid;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 30px 5px 30px;
 }
 
-.recycleImg {
-  width: 98%;
+.footerBanner {
+  background-image: url(../img/footerBanner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.footerBanner .row {
+  height: 500px;
+}
+
+.footerBanner .emailSub input {
+  border: 2px solid #916000;
+  padding: 29px 20px 30px 20px;
+}
+
+.footerBanner .emailSub button {
+  padding: 18px 26px 18px 26px;
 }
 
 .logo {
@@ -11182,30 +11204,6 @@ a.text-gray:hover, a.text-gray:focus {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-}
-
-.footerBanner {
-  background-image: url(../img/footerBanner.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 600px;
-}
-
-.footerBanner .row {
-  height: 500px;
-}
-
-.footerBanner .form-inline input {
-  border: 2px solid #916000;
-  padding: 29px 20px 30px 20px;
-}
-
-.footerBanner .form-inline button {
-  padding: 18px 26px 18px 26px;
-}
-
-.navList a {
-  margin-right: 15px;
 }
 
 a:hover {
