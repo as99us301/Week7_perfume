@@ -11237,4 +11237,12 @@ a .card-title, a .card-text {
     display: none;
   }
 }
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #916000;
+}
+
+.formButton {
+  padding: 8px 48px 8px 48px;
+}
 /*# sourceMappingURL=all.css.map */
