@@ -11181,7 +11181,7 @@ a.text-gray:hover, a.text-gray:focus {
 }
 
 .logo {
-  background-image: url(/img/Logo.png);
+  background-image: url(../img/Logo.png);
   background-repeat: no-repeat;
 }
 
