@@ -14,7 +14,7 @@
     <!--header-->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <h1 class="navbar-brand col-4 logo mt-2">
+            <h1 class="navbar-brand col-6 col-lg-4 logo mt-2">
                 <a href="index.html">d'Perfume</a>
             </h1>
 
@@ -26,7 +26,7 @@
                     </li>
                     <li class="nav-item d-flex align-items-center mr-4">
                         <i class="fas fa-user text-gray"></i>
-                        <a class="nav-link text-gray" href="myPage.html">Mypage</a>
+                        <a class="nav-link text-gray" href="login.html">log in</a>
                     </li>
                     <li class="nav-item d-flex align-items-center mr-4">
                         <i class="fas fa-heart text-gray"></i>
@@ -103,11 +103,11 @@
         </div>
     </div>
 
-    <div class="container mb-5">
+    <div class="container mb-4 mb-md-5">
         <div class="row">
-            <div class="col-12 col-md-2 mt-2">
-                <h5 class="mt-2 mb-4 d-none d-lg-block">會員中心</h5>
-                <ul class="nav d-flex flex-xl-column justify-content-between">
+            <div class="col-12 col-lg-2 mt-2">
+                <h5 class="mt-2 mb-4 d-none d-lg-block font-weight-bold">會員中心</h5>
+                <ul class="nav d-flex flex-lg-column justify-content-between">
                     <li class="nav-item mb-3">
                         <a class="px-0 pb-0 active text-black border-bottom border-primary"
                             href="mypage.html">會員資料修改</a>
@@ -121,14 +121,14 @@
                 </ul>
             </div>
 
-            <div class="col-12 col-md-10">
+            <div class="col-12 col-lg-10">
                 <div class="row flex-row-reverse">
-                    <div class="col-12 col-md-4">
-                        <ul class="list-unstyled ml-3">
+                    <div class="col-12 col-md-4 mb-4">
+                        <ul class="list-unstyled ml-3 mb-0">
                             <li class="row align-items-center mt-3 mb-3">
                                 <i class="fas fa-user mr-1"></i>
                                 <h6 class="mb-0 mr-1">會員編號</h6>
-                                <span class="text-grayUser mb-0">T00020080615</span>
+                                <span class="text-gray mb-0 p-m">T00020080615</span>
                             </li>
                             <li class="row">
                                 <p class="mr-3">購物車</p>
@@ -147,31 +147,32 @@
                                 <p>2680</p>
                             </li>
                             <li class="row">
-                                <p class="mr-3">專屬邀請碼</p>
-                                <p>TK2075</p>
-                                <small class="display-block">新戶輸入邀請碼即可獲贈紅利點數1000點</small>
+                                <p class="mr-3 mb-0">專屬邀請碼</p>
+                                <p class="mb-0">TK2075</p>
                             </li>
                         </ul>
+                        <small class="text-gray">新戶輸入邀請碼即可獲贈紅利點數1000點</small>
                     </div>
                     <div class="col-12 col-md-8">
-                        <h5 class="mt-2">個人資料修改</h5>
-                        <hr class="border-black mr-3">
+                        <h5 class="mt-2 mt-md-3  font-weight-bold">個人資料修改</h5>
+                        <hr class="border-black mr-sm-3">
                         <form class="mb-5">
                             <div class="form-group row">
-                                <label for="inputEmail3" class="col-sm-2 col-form-label">會員帳號</label>
-                                <label for="inputEmail3" class="col-sm-8 col-form-label">email@example.com</label>
+                                <label for="inputAccount" class="col-3 col-lg-2 col-form-label">會員帳號</label>
+                                <label for="inputAccount"
+                                    class="col-12 col-md-9 col-form-label">email@example.com</label>
                             </div>
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">會員姓名</label>
-                                <div class="col-md-7 col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                                <label for="inputName" class="col-3 col-lg-2 col-form-label">會員姓名</label>
+                                <div class="col-12 col-sm-11 col-md-7">
+                                    <input type="password" class="form-control" id="inputName" placeholder="">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">會員性別</label>
-                                <div class="col-md-2 col-sm-10">
-                                    <select class="form-control" id="exampleFormControlSelect1">
+                                <label for="selectGender" class="col-3 col-lg-2 col-form-label">會員性別</label>
+                                <div class="col-12 col-sm-11 col-md-3 col-xl-2">
+                                    <select class="form-control" id="selectGender">
                                         <option selected>女</option>
                                         <option>男</option>
                                     </select>
@@ -179,24 +180,24 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">電子信箱</label>
-                                <div class="col-md-7 col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3"
+                                <label for="inputEmail" class="col-3 col-lg-2 col-form-label">電子信箱</label>
+                                <div class="col-12 col-sm-11 col-md-7">
+                                    <input type="password" class="form-control" id="inputEmail"
                                         placeholder="email@example.com">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <label for="addressSelect" class="col-sm-2 col-form-label">地址</label>
-                                <div class="col-md-8 col-sm-10">
-                                    <select class="form-control col-md-5 mb-3" id="addressSelect">
+                                <label for="selectAddress" class="col-3 col-lg-2 col-form-label">地址</label>
+                                <div class="col-12 col-sm-11 col-md-9">
+                                    <select class="form-control col-md-5 mb-3" id="selectAddress">
                                         <option selected>臺灣及離島</option>
                                         <option>臺灣</option>
                                         <option>離島</option>
                                     </select>
                                     <div class="form-row">
                                         <div class="col-12 col-md-5">
-                                            <select class="form-control  mb-3">
+                                            <select class="form-control mb-3">
                                                 <option>高雄市</option>
                                                 <option>發大柴市</option>
                                                 <option selected>陳小米市</option>
@@ -210,14 +211,15 @@
                                                 <option>海水區</option>
                                             </select>
                                         </div>
-                                        <div class="col-md-10 col-sm-10 mb-2">
-                                            <input type="password" class="form-control" id="inputPassword3"
-                                                placeholder="email@example.com">
+                                        <div class="col-12 col-md-10 mb-2">
+                                            <input type="address" class="form-control" id="inputAddress"
+                                                placeholder="請輸入地址">
                                         </div>
                                         <div class="col-sm-10 mt-2">
-                                            <div class="custom-control custom-checkbox">  
-                                                <input type="checkbox" class="custom-control-input" id="customCheck1">  
-                                                <label class="custom-control-label" for="customCheck1">我願意收到最新優惠情報</label>  
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                                <label class="custom-control-label"
+                                                    for="customCheck1">我願意收到最新優惠情報</label>
                                             </div>
                                         </div>
                                     </div>
@@ -225,16 +227,16 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="addressSelect" class="col-sm-2 col-form-label">配送地址</label>
-                                <div class="col-md-8 col-sm-10">
-                                    <select class="form-control col-md-5 mb-3" id="addressSelect">
+                                <label for="selectAddress" class="col-3 col-lg-2 col-form-label">配送地址</label>
+                                <div class="col-12 col-sm-11 col-md-9">
+                                    <select class="form-control col-md-5 mb-3" id="selectAddress">
                                         <option selected>臺灣及離島</option>
                                         <option>臺灣</option>
                                         <option>離島</option>
                                     </select>
                                     <div class="form-row">
                                         <div class="col-12 col-md-5">
-                                            <select class="form-control  mb-3">
+                                            <select class="form-control mb-3">
                                                 <option>高雄市</option>
                                                 <option>發大柴市</option>
                                                 <option selected>陳小米市</option>
@@ -248,44 +250,45 @@
                                                 <option>海水區</option>
                                             </select>
                                         </div>
-                                        <div class="col-md-10 col-sm-10 mb-2">
-                                            <input type="password" class="form-control" id="inputPassword3"
-                                                placeholder="email@example.com">
+                                        <div class="col-12 col-md-10 mb-2">
+                                            <input type="address" class="form-control" id="inputAddress"
+                                                placeholder="請輸入地址">
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <div class="form-group row">
-                                <div class="col-sm-10 offset-md-2">
+                                <div class="col-sm-10 offset-lg-2 offset-md-3">
                                     <button type="submit" class="btn btn-primary formButton">確定修改</button>
                                 </div>
                             </div>
                         </form>
 
-                        <h5 class="mt-2">修改密碼</h5>
-                        <hr class="border-black mr-3">
-                        <form class="mb-4">
+                        <h5 class="mt-2  font-weight-bold">修改密碼</h5>
+                        <hr class="border-black mr-sm-3">
+                        <form>
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">舊密碼</label>
-                                <div class="col-md-7 col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                                <label for="inputOldpassword" class="col-3 col-lg-2 col-form-label">舊密碼</label>
+                                <div class="col-12 col-sm-11 col-md-7">
+                                    <input type="password" class="form-control" id="inputOldpassword" placeholder="">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label">新密碼</label>
-                                <div class="col-md-7 col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                                <label for="inputNewpassword" class="col-3 col-lg-2 col-form-label">新密碼</label>
+                                <div class="col-12 col-sm-11 col-md-7">
+                                    <input type="password" class="form-control" id="inputNewpassword" placeholder="">
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-sm-2 col-form-label pr-0">確認新密碼</label>
-                                <div class="col-md-7 col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword3" placeholder="">
+                                <label for="checkNewpassword" class="col-3 col-lg-2 col-form-label pr-0">確認新密碼</label>
+                                <div class="col-12 col-sm-11 col-md-7">
+                                    <input type="password" class="form-control" id="checkNewpassword" placeholder="">
                                 </div>
                             </div>
 
                             <div class="form-group row">
-                                <div class="col-sm-10 offset-md-2">
+                                <div class="col-sm-10 offset-lg-2 offset-md-3 mt-2">
                                     <button type="submit" class="btn btn-primary formButton">變更密碼</button>
                                 </div>
                             </div>
@@ -303,7 +306,7 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="d-flex align-items-center">
                     <a href="index.html">
-                        <img class="mr-3" src="img/logo_white.png" alt="">
+                        <img class="mr-3" src="img/layout/logo_white.png" alt="">
                     </a>
                     <small class="text-white mt-1">© 2020. All Rights Reserved.</small>
                 </div>

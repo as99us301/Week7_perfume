@@ -25,6 +25,24 @@ h6, .h6 { @include font-size($h6-font-size); }
   font-weight: $lead-font-weight;
 }
 
+
+//自訂字體大小與行高
+//字體大小*1.5 = 行高
+.p-s{
+  @include font-size($p-s-size);
+  line-height: $p-s-size * $line-height-base;
+}
+
+.p-m{
+  @include font-size($p-m-size);
+  line-height: $p-m-size * $line-height-base;
+}
+
+.p-l{
+  @include font-size($p-l-size);
+  line-height: $p-l-size * $line-height-base;
+}
+
 // Type display classes
 .display-1 {
   @include font-size($display1-size);
