@@ -1,13 +1,10 @@
 .bannerButton{
-    @include raduisButton;
-    font-size: 22px;
+    font-size: $p-l-size;
     padding: 5px 90px 5px 90px;
 }
 
 .productButton{
-    @include raduisButton;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: $p-m-size;
     padding: 5px 30px 5px 30px;
 }
 

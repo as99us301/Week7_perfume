@@ -11909,17 +11909,12 @@ a.text-white:hover, a.text-white:focus {
 }
 
 .bannerButton {
-  border: 2px solid;
-  border-radius: 30px;
-  font-size: 22px;
+  font-size: 1.5rem;
   padding: 5px 90px 5px 90px;
 }
 
 .productButton {
-  border: 2px solid;
-  border-radius: 30px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1.25rem;
   padding: 5px 30px 5px 30px;
 }
 
@@ -11975,7 +11970,7 @@ a.text-white:hover, a.text-white:focus {
 }
 
 .emailSub input {
-  border: 2px solid #916000;
+  border: 2px solid;
   padding: 29px 20px 30px 20px;
 }
 
@@ -11994,19 +11989,6 @@ a .card-title, a .card-text {
 .page-link:hover {
   background-color: #916000;
   color: white;
-}
-
-.custom-select {
-  height: 50px;
-  border: 1px solid #916000;
-}
-
-.input-group-text {
-  color: white;
-  padding: 0 50px 0 50px;
-  cursor: pointer;
-  font-size: 16px;
-  border: 1px solid #916000;
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {

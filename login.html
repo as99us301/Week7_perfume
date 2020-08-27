@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
     <title>d'Perfume -登入-</title>
 </head>
 
 <body>
+
+
     <!--header-->
-    <div class="container">
+    <div class="container" data-aos="fade-down">
         <nav class="navbar navbar-expand-lg navbar-light">
             <h1 class="navbar-brand col-6 col-lg-4 logo mt-2">
                 <a href="index.html">d'Perfume</a>
@@ -52,7 +55,7 @@
             </div>
         </nav>
     </div>
-    
+
     <!--header 漢堡選單列表-->
     <div class="container-fluid px-0 navbar-collapse collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav">
@@ -102,9 +105,9 @@
         </div>
     </div>
 
-
+    <!--內容開始-->
     <div class="container mb-4 mb-lg-5">
-        <div class="row  align-items-center">
+        <div class="row  align-items-center" data-aos="fade-up">
             <div class="col-12 col-lg-8">
                 <img class="img-fluid" src="img/login.png" alt="">
             </div>
@@ -179,6 +182,13 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+    </script>
 
 </body>
 
