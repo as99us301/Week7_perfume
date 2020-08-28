@@ -166,7 +166,7 @@ a {
 
 a:hover {
   color: #452d00;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:not([href]):not([class]) {
@@ -3649,11 +3649,11 @@ fieldset:disabled a.btn {
 
 .btn-link:hover {
   color: #452d00;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .btn-link:disabled, .btn-link.disabled {
@@ -5660,9 +5660,9 @@ input[type="button"].btn-block {
 
 .page-link:hover {
   z-index: 2;
-  color: #452d00;
+  color: #fff;
   text-decoration: none;
-  background-color: #e9ecef;
+  background-color: #916000;
   border-color: #dee2e6;
 }
 
