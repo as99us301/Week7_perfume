@@ -51,6 +51,27 @@
   }
 }
 
+.btn-form{
+  padding: 8px 48px 8px 48px;
+}
+
+.btn-footer{
+  padding: 18px 26px 18px 26px;
+}
+
+.btn-banner{
+  font-size: $p-l-size;
+  padding: 5px 90px 5px 90px;
+  line-height: 2.25rem;
+}
+
+.btn-product{ 
+  font-size: $p-m-size;
+  line-height: 1.875rem;
+  padding: 5px 30px 5px 30px;
+}
+
+
 // Future-proof disabling of clicks on `<a>` elements
 a.btn.disabled,
 fieldset:disabled a.btn {

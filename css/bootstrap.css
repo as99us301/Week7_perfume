@@ -2335,6 +2335,11 @@ pre code {
   opacity: 1;
 }
 
+.form-footer {
+  padding: 1.8rem 0.75rem;
+  border: 2px solid;
+}
+
 input[type="date"].form-control,
 input[type="time"].form-control,
 input[type="datetime-local"].form-control,
@@ -2831,6 +2836,26 @@ textarea.form-control {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
+}
+
+.btn-form {
+  padding: 8px 48px 8px 48px;
+}
+
+.btn-footer {
+  padding: 18px 26px 18px 26px;
+}
+
+.btn-banner {
+  font-size: 1.5rem;
+  padding: 5px 90px 5px 90px;
+  line-height: 2.25rem;
+}
+
+.btn-product {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  padding: 5px 30px 5px 30px;
 }
 
 a.btn.disabled,

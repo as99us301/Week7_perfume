@@ -59,6 +59,13 @@
   }
 }
 
+
+.form-footer {
+  padding: $form-footer-padding-y $input-padding-x;
+  border: 2px solid;
+}
+
+
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
